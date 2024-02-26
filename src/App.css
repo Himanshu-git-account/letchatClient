@@ -1,0 +1,38 @@
+.container{
+    background-image: url('../public/background.jpg');
+    background-size: contain;
+    width:330px;
+    height: 600px;
+    border: 1px solid darkblue;
+}
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formContainer{
+    margin: 10px;
+}
+.input-feild{
+    padding: 8px 16px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+.button{
+    margin-left: 2px;
+    border-radius: 20px;
+    padding:8px 16px;
+    background-color: #0D3B66;
+    color: white;
+}
+.list>ul{
+    list-style-type: none;
+    background-color: #81A4CD;
+    padding: 5px 10px ;
+    border-radius: 20px;
+    width: 70%;
+    margin: 5px;
+}
+.list>li{
+    margin-bottom: 5px;
+}
